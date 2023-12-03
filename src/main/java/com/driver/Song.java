@@ -5,8 +5,6 @@ public class Song {
     private int length;
     private int likes;
 
-    private Album album;
-
     public Song(){
 
     }
@@ -40,11 +38,4 @@ public class Song {
         this.likes = likes;
     }
 
-    public Album getAlbum() {
-        return album;
-    }
-
-    public void setAlbum(Album album) {
-        this.album = album;
-    }
 }

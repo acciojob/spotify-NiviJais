@@ -7,8 +7,6 @@ public class Album {
     private String title;
     private Date releaseDate;
 
-    private Artist artist;
-
     public Album(){
 
     }
@@ -34,11 +32,4 @@ public class Album {
         this.releaseDate = releaseDate;
     }
 
-    public Artist getArtist() {
-        return artist;
-    }
-
-    public void setArtist(Artist artist) {
-        this.artist = artist;
-    }
 }
