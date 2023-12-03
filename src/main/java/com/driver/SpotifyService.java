@@ -11,9 +11,6 @@ public class SpotifyService {
 
     SpotifyRepository spotifyRepository = new SpotifyRepository();
 
-    public SpotifyService() throws Exception {
-    }
-
     public User createUser(String name, String mobile){
        return spotifyRepository.createUser(name, mobile) ;
     }
